@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+    <link rel=" shortcut icon" type="image/png" href="icons/favicon.png" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+
+  <body class="">
+    <button id="themeButton">
+      <i id="themeButton__icon" data-feather="moon"></i>
+    </button>
+    <div class="container">
+      <!-- Clock and Greetings  -->
+
+      <div class="timeBlock">
+        <div class="clock">
+          <div id="hour" class=""></div>
+          <div id="separator" class=""></div>
+          <div id="minutes" class=""></div>
+        </div>
+        <div id="greetings" class=""></div>
+      </div>
+      
+      <div class="topnav">
+        <a class="active">
+          <form role="search" id="form">
+            <input type="search" id="query" name="q" placeholder="Surf?" aria-label="Surf The Web!">
+          </form>
+          <script>
+            const f = document.getElementById('form');
+            const q = document.getElementById('query');
+            const duck = 'https://www.duckduckgo.com/search?q';
+
+            function submitted(event) {
+              event.preventDefault();
+              const url = duck + q.value;
+              const win = window.open(url, '_blank');
+              win.focus();
+            }
+
+            f.addEventListener('submit', submitted);
+          </script>
+        </a>
+      </div>
+      <!-- Date and Weather  -->
+
+      <!--
+      <div class="weatherBlock">
+         <div class="weatherBlock__date">
+           <div id="month" class=""></div>
+           <div id="day" class=""></div>
+         </div>
+         <div class="weatherBlock__weather">
+           <div class="weather-icon">
+             <img src="icons/OneDark/unknown.png" />
+           </div>
+           <div class="temperature-value">
+             <p class="">- °<span class="g">c</span></p>
+           </div>
+           <div class="temperature-description">
+             <p class=""></p>
+           </div>
+         </div>
+       </div>
+      -->
+
+      <!-- Buttons Links  -->
+
+      <div class="buttonLink">
+        <a
+          href="https://github.com/"
+          target="blank"
+          class="buttonLink__link card buttonLink__link-1"
+        >
+          <i class="buttonLink__icon" data-feather="github"></i>
+        </a>
+        <a
+          target="blank"
+          href="https://protonmail.com"
+          class="buttonLink__link card buttonLink__link-2"
+        >
+          <i class="buttonLink__icon" data-feather="mail"></i>
+        </a>
+        <a
+          target="blank"
+          href="https://calendar.protonmail.com"
+          class="buttonLink__link card buttonLink__link-3"
+        >
+          <i class="buttonLink__icon" data-feather="calendar"></i>
+        </a>
+        <a
+          target="blank"
+          href="https://www.4chan.org/"
+          class="buttonLink__link card buttonLink__link-4"
+        >
+          <i class="buttonLink__icon" data-feather="bookmark"></i>
+        </a>
+        <a
+          href="https://www.reddit.com/"
+          target="blank"
+          class="buttonLink__link card buttonLink__link-5"
+        >
+          <i class="buttonLink__icon" data-feather="trello"></i>
+        </a>
+        <a
+          target="blank"
+          href="https://www.youtube.com/"
+          class="buttonLink__link card buttonLink__link-6"
+        >
+          <i class="buttonLink__icon" data-feather="youtube"></i>
+        </a>
+      </div>
+
+      <!-- Lists  -->
+
+      <div class="card list list__1">
+        <i class="list__head" data-feather="music"></i>
+        
+        <a
+        target="blank"
+        href="https://open.spotify.com"
+        class="list__link"
+        >Spotify</a
+      >
+        <a
+          target="blank"
+          href="https://www.youtube.com/watch?v=Lqvwm3zAILI&list=PLFV4qJb4umeTTsjLZ9c-72_zBJ3K3dVAf"
+          class="list__link"
+          >Rap I like</a
+        >
+        <a
+        target="blank"
+        href="https://soundcloud.com"
+        class="list__link"
+        >Soundcloud</a>
+        <a
+          target="blank"
+          href="https://www.youtube.com/watch?v=CvtJVku_mJw&list=PLFV4qJb4umeRsPPrYSFce6SiZSVjJMTqa"
+          class="list__link"
+          >Rock go brrrr</a
+        >
+      </div>
+
+      <div class="card list list__2">
+        <i class="list__head" data-feather="coffee"></i>
+        <a href="https://aur.archlinux.org/" target="blank" class="list__link"
+          >AUR</a
+        >
+        <a href="https://www.indeed.com" target="blank" class="list__link"
+          >Indeed</a
+        >
+        <a href="https://instagram.com/" target="blank" class="list__link"
+          >Instagram</a
+        >
+        <a
+          href="https://sites.google.com/d/1jWy6dSfYmZIPCH5ezN_tbRv-YrcsOog8/p/1V2AqWmeqJ09S6WSuF3UN4IrxxIFdOACR/edit"
+          target="blank"
+          class="list__link"
+          >Project Abyss</a
+        >
+      </div>
+    </div>
+
+    <!-- Scrips  -->
+
+    <script src="js/time.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/weather.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+
+  <!-- Coded and designed by Miguel R. Ávila: https://github.com/MiguelRAvila -->
+</html>
