@@ -13,7 +13,7 @@ Spiderweb is an open-source project with the goal to recreate a handfull of webs
 
 ## Check out the project
 
-If you wanna check out some of the sites and shit you can check them out by cloning the repository and dragging aand dropping the HTML file(s) into your web browser of choice. Just remember that they're all currently in _Work In Progress_ / _Development_ phases and there's not much to look at yet
+If you wanna check out some of the sites and shit you can check them out by cloning the repository and dragging aand dropping the HTML file(s) into your web browser of choice. Just remember that they're all currently in their _Work In Progress_ / _Development_ phases and there's not much to look at yet
 
 `git clone https://github.com/OkaVatti/Spiderweb.git`
 
