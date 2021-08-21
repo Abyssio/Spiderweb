@@ -18,7 +18,7 @@ If you wanna check out some of the sites and shit you can check them out by clon
 
 if you're using beaker, this process is gonna be pretty easy and straight forward
 
-# for beaker
+### for beaker
 
 1. click on the 3 lines in the top right corner
 2. click "new hyperdrive from folder"
