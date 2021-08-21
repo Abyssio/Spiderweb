@@ -9,17 +9,20 @@ ____
 - [ ] P L A C E H O L D E R 
 
 **JS**
-- [ ] Rewrite all of the JS modules
+- [x] Rewrite all of the JS modules
   - [x] REAL TIME, 24HR CLOCK
-  - [ ] UPDATE THE THEMING BUTTON
-  - [ ] REAL TIME GREETINGS BASED ON TIME
+  - [x] UPDATE THE THEMING BUTTON
  - [ ] P L A C E H O L D E R 
  - [ ] P L A C E H O L D E R 
 
 **C S S**
 - [x] ADJUST THE OREO THEMING
 - [x] APPLY THEMING FOR THE SEARCH BARS
-- [ ] P L A C E H O L D E R 
-- [ ] P L A C E H O L D E R 
-- [ ] P L A C E H O L D E R 
-- [ ] P L A C E H O L D E R 
+- [ ] create new css themes for customizability 
+  - [ ] Strawberry.css
+  - [ ] Cherry.css 
+  - [ ] Vanilla.css
+  - [ ] Silk.css
+  - [ ] Midnight.css
+  - [ ] ~~Abyss.css~~
+  - [ ] ?????.css
