@@ -10,6 +10,8 @@ The the most we currently have at the moment are a few files that you can check 
 
 Spiderweb is an open-source project with the goal to recreate a handfull of websites for fun. Eventually leading to something that is usable as anyones daily driver. This was also probably one of the best excuses to just go off and learn JavaScript and HTML. Feel free to fork the project and add your own website to the project. We'd be more than happy to merge it in. Just remember to follow our rules when making an addition site.
 
+We ask that you please refrain from purchasing domains and hosting some of these websites on them. These are ment for local use only and should stay as is within **_project abyss_** until further notice.
+
 ## Check out the project
 
 If you wanna check out some of the sites and shit you can check them out by cloning the repository and dragging aand dropping the HTML file(s) into your web browser of choice. Just remember that they're all currently in their _Work In Progress_ / _Development_ phases and there's not much to look at yet
